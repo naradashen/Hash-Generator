@@ -45,6 +45,7 @@ To use the hash generator tool, follow these steps:
    ```bash
    ./hash
    ```
+3. ### Go to "Issues" for more details.
 
 ## Supported Hash Algorithms
     MD4
