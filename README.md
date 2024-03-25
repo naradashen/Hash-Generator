@@ -29,7 +29,7 @@ Before running the hash generator tool, ensure that OpenSSL library is installed
    ```
    - Compile the code using a C++ compiler (e.g., g++):
    ```cpp
-   g++ main.cpp -o hash_generator -lcrypto
+   g++ -o hash main.cpp -lssl -lcrypto
    ```
 
 ## Usage
@@ -43,7 +43,7 @@ To use the hash generator tool, follow these steps:
 2. ### Run the Program:
    - Execute the compiled program with the desired hash algorithm and input text:
    ```bash
-   ./hash_generator
+   ./hash
    ```
 
 ## Supported Hash Algorithms
